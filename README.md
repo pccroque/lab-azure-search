@@ -27,16 +27,17 @@ A solução para criar o Fourth Coffee requer os seguintes recursos na assinatur
 4. Após a conclusão da implantação, selecione **Ir para o recurso**. Na página de visão geral do Azure AI Search, você pode adicionar índices, importar dados e pesquisar índices criados.
 
 **Criar um recurso de serviços de IA do Azure**
+
 Você precisará provisionar um recurso de **serviços de IA do Azure** que esteja no mesmo local que o recurso de Pesquisa de IA do Azure. Sua solução de pesquisa usará esse recurso para enriquecer os dados no armazenamento de dados com insights gerados por IA.
 
 1. Retorne à home page do portal do Azure. Clique no botão **+Criar um recurso** e pesquise os *serviços de IA do Azure*.
    Selecione **criar** um plano de **serviços de IA do Azure**. Você será levado a uma página para criar um recurso de serviços de IA do Azure. Configure-o com as seguintes configurações:
 
-**Assinatura:** sua assinatura do Azure.
-**Grupo de recursos:** o mesmo grupo de recursos que o recurso do Azure AI Search.
-**Região:** o mesmo local que o recurso do Azure AI Search.
-**Nome:** Um nome exclusivo.
-**Tipo de preço:** Standard S0
+**Assinatura:** sua assinatura do Azure.  
+**Grupo de recursos:** o mesmo grupo de recursos que o recurso do Azure AI Search.  
+**Região:** o mesmo local que o recurso do Azure AI Search.  
+**Nome:** Um nome exclusivo.  
+**Tipo de preço:** Standard S0  
 Ao marcar esta caixa, **reconheço que li e entendi todos os termos abaixo:** Selecionado
 
 2. Selecione **Examinar + criar**. Depois de ver a resposta **Validação aprovada**, selecione **Criar**.
@@ -44,15 +45,16 @@ Ao marcar esta caixa, **reconheço que li e entendi todos os termos abaixo:** Se
 3. Aguarde a conclusão da implantação e exiba os detalhes da implantação.
 
 **Criar uma conta de armazenamento**
+
 1. Retorne à home page do portal do Azure e selecione o botão **+ Criar um recurso**.
 2. Pesquise a conta de armazenamento e crie um recurso **de conta de armazenamento** com as seguintes configurações:
 
-Assinatura: sua assinatura do Azure.
-**Grupo de recursos:** o mesmo grupo de recursos que os recursos do Azure AI Search e dos serviços de IA do Azure.
-**Nome da conta de armazenamento:** um nome exclusivo.
-**Local:** escolha qualquer local disponível.
-**Desempenho:** Padrão
-**Redundância:** LRS (armazenamento com redundância local)
+**Assinatura:** sua assinatura do Azure.  
+**Grupo de recursos:** o mesmo grupo de recursos que os recursos do Azure AI Search e dos serviços de IA do Azure.  
+**Nome da conta de armazenamento:** um nome exclusivo.  
+**Local:** escolha qualquer local disponível.  
+**Desempenho:** Padrão  
+**Redundância:** LRS (armazenamento com redundância local)  
 
 3. Clique em **Revisar** e, em seguida, clique em **Criar**. Aguarde a conclusão da implantação e vá para o recurso implantado.
 4. Na conta de Armazenamento do Azure que você criou, no painel de menu à esquerda, selecione **Configuração**.
