@@ -16,11 +16,11 @@ A solução para criar o Fourth Coffee requer os seguintes recursos na assinatur
 1. Entre no *portal do Azure*.
 2. Clique no botão **+ Criar um recurso**, pesquise Azure AI Search e crie um recurso Azure **AI Search** com as seguintes configurações: 
 
-**Assinatura:** sua assinatura do Azure. 
-**Grupo de recursos:** selecione ou crie um grupo de recursos com um nome exclusivo. 
-**Nome do serviço:** um nome exclusivo. 
-**Local:** Colocar West US 2 (Fora do Brasil mais barato). 
-**Tipo de preço:** Básico 
+**Assinatura:** sua assinatura do Azure.  
+**Grupo de recursos:** selecione ou crie um grupo de recursos com um nome exclusivo.  
+**Nome do serviço:** um nome exclusivo.  
+**Local:** Colocar West US 2 (Fora do Brasil mais barato).  
+**Tipo de preço:** Básico   
 
 3. Selecione **Examinar + criar** e, depois de ver a resposta **Validação bem-sucedida**, selecione **Criar**.
 
