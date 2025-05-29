@@ -39,8 +39,8 @@ Você precisará provisionar um recurso de **serviços de IA do Azure** que este
 **Tipo de preço:** Standard S0  
 
 Ao marcar esta caixa, **reconheço que li e entendi todos os termos abaixo:** Selecionado  
-2. Selecione **Examinar + criar**. Depois de ver a resposta **Validação aprovada**, selecione **Criar**.
-3. Aguarde a conclusão da implantação e exiba os detalhes da implantação.
+2. Selecione **Examinar + criar**. Depois de ver a resposta **Validação aprovada**, selecione **Criar**.  
+3. Aguarde a conclusão da implantação e exiba os detalhes da implantação.  
 
 **Criar uma conta de armazenamento**
 1. Retorne à home page do portal do Azure e selecione o botão **+ Criar um recurso**.
