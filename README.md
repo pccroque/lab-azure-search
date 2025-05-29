@@ -12,7 +12,7 @@ A solução para criar o Fourth Coffee requer os seguintes recursos na assinatur
 - Um recurso de serviços de IA do Azure, que fornece serviços de IA para habilidades que sua solução de pesquisa pode usar para enriquecer os dados na fonte de dados com insights gerados por IA.
 - Uma conta de armazenamento com contêineres de blob, que armazenará documentos brutos e outras coleções de tabelas, objetos ou arquivos.
 
-##Criar um recurso do Azure AI Search**
+**Criar um recurso do Azure AI Search**
 1. Entre no *portal do Azure*.
 2. Clique no botão **+ Criar um recurso**, pesquise Azure AI Search e crie um recurso Azure **AI Search** com as seguintes configurações:
 
@@ -38,6 +38,7 @@ Você precisará provisionar um recurso de **serviços de IA do Azure** que este
 **Nome:** Um nome exclusivo.
 **Tipo de preço:** Standard S0
 Ao marcar esta caixa, **reconheço que li e entendi todos os termos abaixo:** Selecionado
+
 2. Selecione **Examinar + criar**. Depois de ver a resposta **Validação aprovada**, selecione **Criar**.
 
 3. Aguarde a conclusão da implantação e exiba os detalhes da implantação.
@@ -52,6 +53,7 @@ Assinatura: sua assinatura do Azure.
 **Local:** escolha qualquer local disponível.
 **Desempenho:** Padrão
 **Redundância:** LRS (armazenamento com redundância local)
+
 3. Clique em **Revisar** e, em seguida, clique em **Criar**. Aguarde a conclusão da implantação e vá para o recurso implantado.
 4. Na conta de Armazenamento do Azure que você criou, no painel de menu à esquerda, selecione **Configuração**.
 5. Altere a configuração de *Permitir acesso anônimo ao Blob* para **Habilitado** e selecione **Salvar**.
