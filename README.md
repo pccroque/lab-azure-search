@@ -38,7 +38,7 @@ Você precisará provisionar um recurso de **serviços de IA do Azure** que este
 **Nome:** Um nome exclusivo.  
 **Tipo de preço:** Standard S0  
 
-Ao marcar esta caixa, **reconheço que li e entendi todos os termos abaixo:** Selecionado
+Ao marcar esta caixa, **reconheço que li e entendi todos os termos abaixo:** Selecionado  
 2. Selecione **Examinar + criar**. Depois de ver a resposta **Validação aprovada**, selecione **Criar**.
 3. Aguarde a conclusão da implantação e exiba os detalhes da implantação.
 
