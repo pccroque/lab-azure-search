@@ -25,11 +25,12 @@ A solução para criar o Fourth Coffee requer os seguintes recursos na assinatur
 3. Selecione **Examinar + criar** e, depois de ver a resposta **Validação bem-sucedida**, selecione **Criar**.
 4. Após a conclusão da implantação, selecione **Ir para o recurso**. Na página de visão geral do Azure AI Search, você pode adicionar índices, importar dados e pesquisar índices criados.
 
-**Criar um recurso de serviços de IA do Azure**
+**Criar um recurso de serviços de IA do Azure**  
+
 Você precisará provisionar um recurso de **serviços de IA do Azure** que esteja no mesmo local que o recurso de Pesquisa de IA do Azure. Sua solução de pesquisa usará esse recurso para enriquecer os dados no armazenamento de dados com insights gerados por IA.
 
 1. Retorne à home page do portal do Azure. Clique no botão **+Criar um recurso** e pesquise os *serviços de IA do Azure*.
-   Selecione **criar** um plano de **serviços de IA do Azure**. Você será levado a uma página para criar um recurso de serviços de IA do Azure. Configure-o com as seguintes configurações:
+   Selecione **criar** um plano de **serviços de IA do Azure**. Você será levado a uma página para criar um recurso de serviços de IA do Azure. Configure-o com as seguintes configurações:  
 
 **Assinatura:** sua assinatura do Azure.  
 **Grupo de recursos:** o mesmo grupo de recursos que o recurso do Azure AI Search.  
