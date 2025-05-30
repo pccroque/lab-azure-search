@@ -6,7 +6,7 @@ Foram abordados três passos principais: ingestão de conteúdo para IA, criaç�
 *Explorar um índice (UI) do Azure AI Search*<br>
 Vamos imaginar que você trabalhe para a Fourth Coffee, uma rede nacional de cafés. Você é solicitado a ajudar a criar uma solução de mineração de conhecimento que facilite a pesquisa de insights sobre as experiências do cliente. Para isso, usaremos o Azure AI Search com os dados extraídos de avaliações de clientes.
 
-**Recursos do Azure necessários:**
+## Recursos do Azure necessários:
 A solução para criar o Fourth Coffee requer os seguintes recursos na assinatura do Azure:
 - Um recurso do Azure AI Search, que gerenciará a indexação e a consulta.
 - Um recurso de serviços de IA do Azure, que fornece serviços de IA para habilidades que sua solução de pesquisa pode usar para enriquecer os dados na fonte de dados com insights gerados por IA.
@@ -56,7 +56,7 @@ Selecione a caixa, **reconheço que li e entendi todos os termos abaixo:**
 5. Na conta de Armazenamento do Azure que você criou, no painel de menu à esquerda, selecione **Configuração**.
 6. Altere a configuração de *Permitir acesso anônimo ao Blob* para **Habilitado** e selecione **Salvar**.
 
-**Carregar documentos no Armazenamento do Azure**
+## Carregar documentos no Armazenamento do Azure
 
 1. No painel de menu à esquerda, selecione **Contêineres**.
 2. Selecione **+ Contêiner**. Um painel no seu lado direito é aberto.
@@ -71,7 +71,7 @@ Selecione a caixa, **reconheço que li e entendi todos os termos abaixo:**
 7. Na janela Explorer, selecione **todos** os arquivos na pasta de revisões, selecione **Abrir** e, em seguida, selecione **Carregar**.<br>
 8. Após a conclusão do carregamento, você pode fechar o painel **Carregar blob**. Seus documentos agora estão em seu contêiner *de armazenamento de avaliações de café*.<br>
 
-**Indexar os documentos**
+## Indexar os documentos
 
 Depois de ter os documentos armazenados, você pode usar o Azure AI Search para extrair insights dos documentos. O portal do Azure fornece um assistente de importação de dados. Com esse assistente, você pode criar automaticamente um índice e um indexador para fontes de dados com suporte. Você usará o assistente para criar um índice e importar seus documentos de pesquisa do armazenamento para o índice do Azure AI Search.
 
@@ -132,7 +132,7 @@ Depois de ter os documentos armazenados, você pode usar o Azure AI Search para 
 17. Retorne à página de recursos do Azure AI Search. No painel esquerdo, em **Gerenciamento de Pesquisa**, selecione **Indexadores**. Selecione o **indexador de café recém-criado**. Aguarde um minuto e selecione **&orarr; Atualize** até que o **Status** indique sucesso.
 18. Selecione o nome do indexador para ver mais detalhes.
 
-**Consultar o índice**
+## Consultar o índice
 
 Use o Gerenciador de pesquisa para escrever e testar consultas. O gerenciador de pesquisa é uma ferramenta integrada ao portal do Azure que oferece uma maneira fácil de validar a qualidade do índice de pesquisa. Você pode usar o Gerenciador de Pesquisa para escrever consultas e revisar resultados em JSON.
 
@@ -164,14 +164,14 @@ No campo **Editor de consultas JSON**, copie e cole:
 ```   
    5. Selecione **Pesquisar**. A consulta pesquisa todos os documentos no índice e filtra as revisões com um sentimento negativo. Você deve ver no campo.1@odata.count
 
-      **Nota**
-      Veja como os resultados são classificados por . Esta é a pontuação atribuída pelo mecanismo de pesquisa para mostrar o quão próximos os resultados correspondem à consulta
-      fornecida. @search.score
+      > **Nota**
+      > Veja como os resultados são classificados por . Esta é a pontuação atribuída pelo mecanismo de pesquisa para mostrar o quão próximos os resultados correspondem à consulta
+      > fornecida. @search.score
 
    6. Um dos problemas que podemos querer resolver é por que pode haver certas revisões. Vamos dar uma olhada nas frases-chave associadas à avaliação negativa. Qual você acha que pode ser a causa da revisão?
 
 
-**Examinar o repositório de conhecimento**
+## Examinar o repositório de conhecimento
 
 Vamos ver o poder do armazenamento de conhecimento em ação. Ao executar o *assistente para Importar dados*, você também criou um repositório de conhecimento. Dentro do repositório de conhecimento, você verá que os dados enriquecidos extraídos pelas habilidades de IA persistem na forma de projeções e tabelas.
 
